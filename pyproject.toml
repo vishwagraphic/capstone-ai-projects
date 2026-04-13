@@ -1,0 +1,14 @@
+[project]
+name = "capstone-ai-projects"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.13"
+dependencies = [
+    "config>=0.5.1",
+    "llama-index>=0.14.0",
+]
+
+[tool.uv.workspace]
+members = [
+    "convopro_chatgpt",
+]
